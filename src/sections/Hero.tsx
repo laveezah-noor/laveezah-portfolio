@@ -55,12 +55,16 @@ function Hero() {
         Software Engineer proficient in Python, Java, C#, and SQL. Expertise in
         scripting, Docker, and Git version control. Skilled in frontend
         technologies like React, Next.js, and React Native, as well as backend
-        frameworks including Django, Flask, and Node.js. A dedicated
-        professional with a passion for creating innovative solutions and
-        enhancing software development processes and have worked at {" "}
+        frameworks including Django, Flask, and Node.js. A dedicated professional 
+        with a passion for creating innovative solutions and enhancing software 
+        development processes and have previously worked at {" "}
         <Link href="https://www.linkedin.com/company/trafix-llc/" target="_blank" className="link">
-          TRAFIX LLC.
+          TRAFIX LLC
         </Link>
+        , and currently working at {" "}
+        <Link href="https://www.linkedin.com/company/baritechsolofficial/" target="_blank" className="link">
+          BariTechSol.
+        </Link> 
       </motion.p>
       <motion.div
         className="hero-button"

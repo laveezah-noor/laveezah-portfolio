@@ -28,8 +28,8 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Laveezah Noor,A Final-year software engineer
-            major at the University of Karachi, and I am working on getting 𝗔𝗪𝗦
+            Bonjour! My name is Laveezah Noor, A fresh software engineer grad
+             at the University of Karachi, and I am working on getting 𝗔𝗪𝗦
             𝗖𝗲𝗿𝘁𝗶𝗳𝗶𝗲𝗱 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁, after getting AWS Cloud Practitioner
             Certification this year. After joining the Institute of Emerging
             Careers for the past Summer, I’ve shifted my educational spotlight
@@ -39,8 +39,7 @@ function About() {
             Throughout my education, I’ve taken on several leadership roles, and
             feel comfortable in that sphere. I excel when working in cooperative
             groups to solve software problems, and I’ve also learned how to
-            apply critical thinking and problem-solving strategies that delight
-            our clients and exceed their expectations at{" "}
+            apply critical thinking and problem-solving strategies at{" "}
             <Link
               href="https://www.linkedin.com/company/trafix-llc/"
               className="link"
