@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
+  const baseUrl = "https://laveezah-noor.netlify.app/";
   const sectionLinks = [
     { name: "About", link: "/#about" },
     { name: "Experience", link: "/#experience" },
@@ -62,7 +63,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="kishansheth.com">
+          <Link href={baseUrl}>
             <Logo />
           </Link>
         </motion.div>
@@ -123,7 +124,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
+            <Button text="Resume" link={`{baseUrl}/resume.pdf`} />
           </motion.div>
         </div>
       </div>
