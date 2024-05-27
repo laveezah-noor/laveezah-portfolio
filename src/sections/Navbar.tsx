@@ -63,7 +63,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href={baseUrl}>
+          <Link href="/">
             <Logo />
           </Link>
         </motion.div>
@@ -124,7 +124,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link={`{baseUrl}/resume.pdf`} />
+            <Button text="Resume" link={`/resume.pdf`} />
           </motion.div>
         </div>
       </div>
